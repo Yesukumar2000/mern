@@ -1,0 +1,75 @@
+/* General styles */
+.tableContainer {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.marksTable caption {
+  text-align: center;
+  font-weight: 900;
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+
+.tableContainer h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.marksTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.marksTable th,
+.marksTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.marksTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.marksTable th:hover {
+  background-color: #aaa;
+}
+
+.marksTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.marksTable tbody tr:hover {
+  background-color: rgb(155, 254, 155);
+}
+
+.marksTable tbody td:hover {
+  background-color: #85e8eb;
+}
+
+.marksTable tfoot {
+  font-weight: bold;
+}
+
+.marksTable tfoot td {
+  border-top: 2px solid #ddd;
+}
+
+.marksTable tfoot tr:hover {
+  background-color: #dec357;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .marksTable {
+    font-size: 0.8em;
+  }
+  .tableContainer {
+    padding: 10px;
+  }
+}
